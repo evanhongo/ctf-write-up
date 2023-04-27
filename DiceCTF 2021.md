@@ -5,7 +5,7 @@
 
 # `web`/Missing Flavortext [224 solves/111 points]
 
-> ## Hmm, it looks like there's no flavortext here. Can you try and find it?
+Hmm, it looks like there's no flavortext here. Can you try and find it?
 
 ```js
 const crypto = require('crypto');
@@ -65,7 +65,7 @@ app.post('/login', (req, res) => {
 app.listen(3000);
 ```
 
-## What this setting allows is for **other types (arrays, objects) to be passed in, instead of merely just a string.**
+What this setting allows is for **other types (arrays, objects) to be passed in, instead of merely just a string.**
 
 ```js
 app.use(bodyParser.urlencoded({ extended: true }));
@@ -73,11 +73,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 <br />
 
-## A payload like:
+A payload like:
 ![img](img/001.jpg)
-## Will get treated as an array, rather than a string.
+Will get treated as an array, rather than a string.
 
-## **SQL Injection** work!
+**SQL Injection** work!
 
 <br/>
 
